@@ -34,7 +34,7 @@ public class Locations {
         this.marker = marker;
     }
 
-    public Markexr getMarker() {
+    public Marker getMarker() {
         return marker;
     }
 

@@ -1,4 +1,10 @@
 <resources>
+
+
+    <string name="txtUser">Usuario</string>
+    <string name="txtPass">Contraseña</string>
+    <string name="btnGo">Entrar</string>
+    <string name="title_activity_maps">Mapa</string>
     <string name="app_name">Exm2Android</string>
     <string name="facebook_app_id">1796499547321346</string>
 
