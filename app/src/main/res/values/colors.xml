@@ -3,4 +3,14 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+//definiendo algunos colores DINT
+
+    <color name="color1">#bd1dc2</color>
+    <color name="color2">#96963e</color>
+    <color name="color3">#635534</color>
+    <color name="color4">#77b7a9</color>
+    <color name="color5">#f1aba6</color>
+    <color name="color6">#76423e</color>
+    <color name="color7">#252d48</color>
 </resources>
