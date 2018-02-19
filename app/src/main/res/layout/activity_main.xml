@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,6 +7,8 @@
     android:layout_height="match_parent"
     android:background="@android:color/holo_red_light"
     tools:context="com.example.roberto.exm2android.MainActivity">
+
+
 
 
     <com.facebook.login.widget.LoginButton
@@ -19,7 +22,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"
