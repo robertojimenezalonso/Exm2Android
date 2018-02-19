@@ -35,6 +35,9 @@ public class MapDetailFragment extends Fragment {
         txtCiudad = v.findViewById(R.id.txtCiudad);
         txtPais= v.findViewById(R.id.txtPais);
         return v;
+        /**
+         *   Metodo onCreateView con los elementos descargados que se muestran en el mapa.
+         */
     }
 
     public void setSelectedLocation(){

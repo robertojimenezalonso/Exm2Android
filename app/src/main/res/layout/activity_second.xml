@@ -22,7 +22,7 @@
 
     <fragment
         android:id="@+id/mapDetail"
-        android:name="com.example.roberto.actiandroid.fragment.MapDetailFragment"
+        android:name="com.example.roberto.exm2android.fragment.MapDetailFragment"
         android:layout_width="264dp"
         android:layout_height="99dp"
         android:layout_marginBottom="8dp"

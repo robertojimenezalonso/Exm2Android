@@ -2,9 +2,9 @@ package com.example.roberto.exm2android;
 
 import android.support.v4.app.FragmentTransaction;
 
-import com.example.roberto.actiandroid.entity.Locations;
-import com.example.roberto.actiandroid.firebase.FireBaseAdmin;
-import com.example.roberto.actiandroid.firebase.FireBaseAdminListener;
+import com.example.roberto.exm2android.entity.Locations;
+import com.example.roberto.exm2android.firebase.FireBaseAdmin;
+import com.example.roberto.exm2android.firebase.FireBaseAdminListener;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -17,7 +17,7 @@ import com.google.firebase.database.GenericTypeIndicator;
 import java.util.ArrayList;
 
 /**
- * Created by roberto on 23/1/18.
+ * Created by roberto on 19/2/18.
  */
 
 public class SecondActivityEvents implements OnMapReadyCallback, FireBaseAdminListener, GoogleMap.OnMarkerClickListener, GoogleMap.OnMapClickListener {
@@ -110,9 +110,9 @@ public class SecondActivityEvents implements OnMapReadyCallback, FireBaseAdminLi
 
         Locations location = (Locations) marker.getTag();
 
-        secondActivity.mapDetailFragment.txtName.setText("Nombre: " + location.name);
-        secondActivity.mapDetailFragment.txtPob.setText("Población: " + location.poblation + "");
-        secondActivity.mapDetailFragment.txtCountry.setText("País: " + location.country);
+        secondActivity.mapDetailFragment.txtNombre.setText("Nombre: " + location.name);
+        secondActivity.mapDetailFragment.txtCiudad.setText("Población: " + location.poblation + "");
+        secondActivity.mapDetailFragment.txtPais.setText("País: " + location.country);
         FragmentTransaction transaction = secondActivity.getSupportFragmentManager().beginTransaction();
         transaction.show(secondActivity.mapDetailFragment);
         transaction.commit();

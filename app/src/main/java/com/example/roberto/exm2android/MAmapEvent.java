@@ -3,11 +3,16 @@ package com.example.roberto.exm2android;
 import android.content.Intent;
 import android.view.View;
 
-import com.example.roberto.actiandroid.firebase.FireBaseAdminListener;
+import com.example.roberto.exm2android.firebase.FireBaseAdminListener;
 import com.google.firebase.database.DataSnapshot;
 
 /**
- * Created by roberto on 23/1/18.
+ * Created by roberto on 19/2/18.
+ */
+
+
+/**
+ * Confirmación firebase loging ok
  */
 
 public class MAmapEvent implements FireBaseAdminListener, View.OnClickListener {

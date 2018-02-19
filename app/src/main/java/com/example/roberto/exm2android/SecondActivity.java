@@ -5,9 +5,9 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.roberto.actiandroid.entity.Locations;
-import com.example.roberto.actiandroid.fragment.MapDetailFragment;
-import com.example.roberto.actiandroid.gpsAdmin.GpsTracker;
+import com.example.roberto.exm2android.entity.Locations;
+import com.example.roberto.exm2android.fragment.MapDetailFragment;
+import com.example.roberto.exm2android.gpsAdmin.GpsTracker;
 import com.google.android.gms.maps.SupportMapFragment;
 
 

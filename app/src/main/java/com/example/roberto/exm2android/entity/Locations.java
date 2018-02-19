@@ -11,6 +11,11 @@ import java.util.Map;
 
 public class Locations {
 
+
+
+    /**
+     *   Se agregar todos los elementos como Markers en el Mapa y detectar cuando se pinche sobre uno de los markers y mostrar la información del elemento pinchado.
+     */
     public double lat, lon;
     public String name;
     public Marker marker;
