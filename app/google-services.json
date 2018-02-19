@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "71986593914",
+    "firebase_url": "https://exm2android.firebaseio.com",
+    "project_id": "exm2android",
+    "storage_bucket": "exm2android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71986593914:android:b3d54b7bf3f293ad",
+        "android_client_info": {
+          "package_name": "com.example.roberto.exm2android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71986593914-d262mckqtd7or7rob1pqa5tipfniuto1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roberto.exm2android",
+            "certificate_hash": "83befd303ac18ce148c9e26e7f9c5078b09249bf"
+          }
+        },
+        {
+          "client_id": "71986593914-3ai3eig6efm6qn3op6t9bh9anaa9gj7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhhXTuM7ynTO2nL2yCCfUF7kws8KuWbf0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71986593914-3ai3eig6efm6qn3op6t9bh9anaa9gj7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
